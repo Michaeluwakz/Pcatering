@@ -1,0 +1,41 @@
+<svg width="600" height="140" viewBox="0 0 600 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pRedGradDark" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#A71930" />
+      <stop offset="60%" stopColor="#720D20" />
+      <stop offset="100%" stopColor="#4A0713" />
+    </linearGradient>
+    <linearGradient id="pGoldGradDark" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#E2C485" />
+      <stop offset="50%" stopColor="#C5A46D" />
+      <stop offset="100%" stopColor="#8A6B32" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Mark at x=20, y=10 (120x120 scale) -->
+  <g transform="translate(20, 10) scale(1.2)">
+    <circle cx="50" cy="50" r="46" stroke="url(#pGoldGradDark)" stroke-width="1.2" stroke-dasharray="4 2" opacity="0.8" />
+    <circle cx="50" cy="50" r="43" stroke="url(#pGoldGradDark)" stroke-width="0.75" opacity="0.5" />
+    
+    <polygon points="50,4 52,6 50,8 48,6" fill="url(#pGoldGradDark)" />
+    <polygon points="50,92 52,94 50,96 48,94" fill="url(#pGoldGradDark)" />
+    <polygon points="4,50 6,52 8,50 6,48" fill="url(#pGoldGradDark)" />
+    <polygon points="92,50 94,52 96,50 94,48" fill="url(#pGoldGradDark)" />
+
+    <path d="M26 68 C 26 40, 74 40, 74 68" stroke="url(#pGoldGradDark)" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.35" />
+    <circle cx="50" cy="38" r="3" fill="url(#pGoldGradDark)" />
+
+    <path d="M34 26 H46 V74 H34 Z" fill="url(#pRedGradDark)" />
+    <path d="M28 26 H48 V30 H28 Z" fill="url(#pRedGradDark)" />
+    <path d="M28 70 H52 V74 H28 Z" fill="url(#pRedGradDark)" />
+    <path d="M44 26 C58 26, 72 32, 72 47 C72 61, 58 66, 44 66 V56 C52 56, 61 53, 61 47 C61 40, 52 36, 44 36 Z" fill="url(#pRedGradDark)" />
+    <path d="M46 29 C56 29, 69 34, 69 47 C69 59, 56 63, 46 63" stroke="url(#pGoldGradDark)" stroke-width="1.2" fill="none" stroke-linecap="round" />
+    <circle cx="53" cy="46" r="2.2" fill="url(#pGoldGradDark)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="175" y="72" font-family="'Cinzel', 'Playfair Display', 'Georgia', serif" font-size="44" font-weight="700" letter-spacing="9" fill="#FAF7F4">PERLECO</text>
+  <text x="178" y="105" font-family="'Plus Jakarta Sans', 'Inter', 'Helvetica', sans-serif" font-size="14" font-weight="600" letter-spacing="8" fill="#C5A46D">CATERING</text>
+  <line x1="310" y1="100" x2="350" y2="100" stroke="#C5A46D" stroke-width="1" opacity="0.4" />
+  <text x="365" y="104" font-family="'Plus Jakarta Sans', 'Inter', 'Helvetica', sans-serif" font-size="11" font-weight="400" letter-spacing="4" fill="#FAF7F4" opacity="0.6">MANCHESTER</text>
+</svg>
